@@ -1,0 +1,44 @@
+
+User Testing Scenarios for Pet Shop Modal:
+
+Successful Purchase:
+Scenario: User selects a pet to purchase and has enough coins.
+Steps:
+- Open the pet shop modal.
+- Select a pet from the "Purchase" tab.
+- Ensure that the selected pet's cost is within the user's available coins.
+- Click the "Purchase" button.
+- Expected Result: The pet is purchased successfully, coins are deducted from the user's account, and a success toast is displayed.
+(You can view new pet in sell tab and in inventory)
+
+Insufficient Coins for Purchase:
+Scenario: User selects a pet to purchase but does not have enough coins.
+Steps:
+- Open the pet shop modal.
+- Select a pet from the "Purchase" tab.
+- Ensure that the selected pet's cost exceeds the user's available coins.
+- Click the "Purchase" button.
+- Expected Result: A failure toast is displayed indicating insufficient coins for the purchase.
+
+Successful Sale:
+Scenario: User selects a pet to sell.
+Steps:
+- Open the pet shop modal.
+- Select a pet from the "Sell" tab.
+- Click the "Sell" button.
+- Expected Result: The pet is sold successfully, coins are added to the user's account, and a success toast is displayed.
+(you should see pet disappear from inventory and sale sectio of pet shop when reopened)
+
+No Pets Available for Sale:
+Scenario: User opens the pet shop modal, but they do not have any pets to sell.
+Steps:
+- Ensure that the user does not have any pets in their inventory.
+- Open the pet shop modal.
+- Expected Result: A message is displayed indicating that there are no pets available for sale.
+
+Closing the Pet Shop Modal:
+Scenario: User closes the pet shop modal without making any transactions.
+Steps:
+- Open the pet shop modal.
+- Click the close button or outside the modal to close it.
+- Expected Result: The pet shop modal closes without making any changes to the user's inventory or coins.

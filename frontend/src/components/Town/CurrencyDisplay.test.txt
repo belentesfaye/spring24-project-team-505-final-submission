@@ -1,0 +1,28 @@
+User Testing Scenarios for Currency Display Component:
+
+Initial Display on register:
+Scenario: User registers into the system for the first time.
+Steps:
+- sign up with a new user account.
+- Expected Result: The currency display shows 100 coins as the initial amount.
+
+Existing User Login:
+Scenario: User logs into the system with an existing account.
+Steps:
+- make a pet purchase so coins no longer equal 100
+- Log back in with  existing user account.
+- Expected Result: The currency display shows the current amount of coins fetched from the database.
+
+Currency Update on Pet Purchase or Sale:
+Scenario: User purchases or sells a pet, which affects the amount of currency.
+Steps:
+- Ensure the currency display is visible.
+- Purchase or sell a pet from the pet shop.
+- Expected Result: The currency display updates to reflect the new amount of coins after the pet purchase/sale.
+
+Currency Update on Game End:
+Scenario: User finishes playing a game, which affects the amount of currency.
+Steps:
+- Ensure the currency display is visible.
+- Play a game until it ends.
+- Expected Result: The currency display updates to reflect the new amount of coins earned or lost after the game ends.

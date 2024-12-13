@@ -1,0 +1,22 @@
+User Testing Scenarios for Pet Shop Area Interaction:
+
+Information Display when in Pet Shop:
+Scenario: User walks into the pet shop area.
+Steps:
+- Move the player into pet shop area (in butterfly room).
+- Expected Result: Information box appears with instructions to press the space bar to purchase or sell a new pet.
+
+Interaction Start:
+Scenario: User presses the space bar to interact with the pet shop area.
+Steps:
+- Ensure the information box is visible when in pet shop area.
+- Press the space bar.
+- Expected Result: Interaction with the pet shop area begins, modal pops up.
+- town is paused while interaction is going on
+
+Interaction End:
+Scenario: User exits the interaction with the pet shop area.
+Steps:
+- Start interacting with the pet shop area by following the steps in the "Interaction Start" scenario.
+- Close modal and move player out of the pet shop area.
+- Expected Result: Interaction with the pet shop area ends, and the information box disappears.

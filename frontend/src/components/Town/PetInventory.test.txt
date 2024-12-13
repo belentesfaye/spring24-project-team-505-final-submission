@@ -1,0 +1,35 @@
+
+User Testing Scenarios for Pet Inventory Component:
+
+Initial Display of Pet Inventory:
+Scenario: User registers into the system and views their pet inventory for the first time.
+Steps:
+- sign up with a valid user account.
+- Locate and click on the "View inventory" button.
+- Expected Result: The modal displaying the pet inventory opens, showing the user has no pets yet
+
+Selecting a Pet for Walk:
+Scenario: User wants to select a pet from their inventory to take for a walk.
+Steps:
+- Log in with a valid user account.
+- View the pet inventory by clicking on the "View inventory" button.
+- Click on a pet from the inventory. (you might have to purchase one)
+- Click on the "Walk" button.
+- Expected Result: The selected pet is starts walking with your sprite
+
+Inventory Update on Pet Purchase:
+Scenario: User purchases a new pet from the pet shop, and the inventory updates accordingly.
+Steps:
+- Log in with a valid user account.
+- Ensure the pet inventory is visible.
+- Purchase a new pet from the pet shop.
+- Expected Result: The pet inventory automatically updates to include the newly purchased pet.
+
+Inventory Update on Pet Sale:
+Scenario: User sells a pet from their inventory, and the inventory updates accordingly.
+Steps:
+- Log in with a valid user account.
+- Ensure the pet inventory is visible.
+- Select a pet from the inventory to sell.
+- Initiate the sale action.
+- Expected Result: The sold pet is removed from the inventory, and the remaining pets are displayed.

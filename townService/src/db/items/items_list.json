@@ -1,0 +1,13 @@
+[
+    {"itemId": 1, "itemName": "Dog", "itemValue": 200, "spritePath": "/sprites/1/inv_sprite.png", "effect": "", "speed": 175},
+    {"itemId": 2, "itemName": "Dog - Sparkle", "itemValue": 300, "spritePath": "/sprites/2/inv_sprite.png", "effect": "sparkle", "speed": 175},
+    {"itemId": 3, "itemName": "Dog - Flame", "itemValue": 350, "spritePath": "/sprites/3/inv_sprite.png", "effect": "flame", "speed": 175},
+    {"itemId": 4, "itemName": "Cat", "itemValue": 200, "spritePath": "/sprites/4/inv_sprite.png", "effect": "", "speed": 175},
+    {"itemId": 5, "itemName": "Cat - Sparkle", "itemValue": 300, "spritePath": "/sprites/5/inv_sprite.png", "effect": "sparkle", "speed": 175},
+    {"itemId": 6, "itemName": "Cat - Flame", "itemValue": 350, "spritePath": "/sprites/6/inv_sprite.png", "effect": "flame", "speed": 175},
+    {"itemId": 7, "itemName": "Mouse", "itemValue": 200, "spritePath": "/sprites/7/inv_sprite.png", "effect": "", "speed": 175},
+    {"itemId": 8, "itemName": "Mouse - Sparkle", "itemValue": 300, "spritePath": "/sprites/8/inv_sprite.png", "effect": "sparkle", "speed": 175},
+    {"itemId": 9, "itemName": "Mouse - Flame", "itemValue": 350, "spritePath": "/sprites/9/inv_sprite.png", "effect": "flame", "speed": 175},
+    {}
+  ]
+  
